@@ -1,0 +1,456 @@
+/* start general */
+.body{
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    list-style: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+    text-decoration:none;
+    display:block;
+}
+a:hover {
+    text-decoration:none;
+}
+input,textarea{
+    background-color:transparent;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.inner-container{
+    max-width: 730px;
+    margin: 0 auto;
+}
+.bd-sixth{
+    border: 1px solid #DEE2E6;
+}
+.bd-black{
+    border: 1px solid #000000;
+}
+/* end general */
+
+/* start utilities */
+.bg-color-primary{
+    background-color:#AA0601;
+}
+.bg-color-third{
+    background-color:#FBF2F2;
+}
+
+.text-color-primary{
+    color: #AA0601;
+}
+.text-color-secondary{
+    color: #650300;
+}
+.text-color-fourth{
+    color: #212529;
+}
+.text-color-fifth{
+    color: #707070;
+}
+
+.fw-rg{
+    font-weight: 400;
+}
+.fw-md{
+    font-weight: 500;
+}
+.fw-b{
+    font-weight: 700;
+}
+.fw-bla{
+    font-weight: 900;
+}
+
+.fs-italic{
+    font-style: italic;
+}
+
+.h2{
+    font-size: 4.5rem;
+    /* font-size: 72px; */
+}
+.h3{
+    font-size: 4rem;
+    /* font-size: 64px; */
+}
+.h4{
+    font-size: 3rem;
+    /* font-size: 48px; */
+}
+.h5{
+    font-size: 2.25rem;
+    /* font-size: 36px; */
+}
+.h6{
+    font-size: 1.5rem;
+    /* font-size: 24px; */
+}
+.h7{
+    font-size: 1.25rem;
+    /* font-size: 20px; */
+}
+.p1{
+    font-size: 1rem;
+    /* font-size: 16px; */
+}
+.p2{
+    font-size: 0.875rem;
+    /* font-size: 14px; */
+}
+
+.px-sm-7{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.px-10{
+    padding-left: 136px;
+    padding-right: 136px;
+}
+.px-lg-10{
+    padding-left: 136px;
+    padding-right: 136px;
+}
+.pt-7{
+    padding-top: 64px;
+}
+.pt-lg-7{
+    padding-top: 64px;
+}
+.pt-sm-12{
+    padding-top: 360px;
+}
+.pr-6{
+    padding-right: 56px;
+}
+.pr-lg-6{
+    padding-right: 56px;
+}
+.pb-8{
+    padding-bottom: 80px;
+}
+.pb-lg-8{
+    padding-bottom: 80px;
+}
+.pb-sm-12{
+    padding-bottom: 360px;
+}
+.pl-lg-9{
+    padding-left: 88px;
+}
+.mr-7{
+    margin-right: 64px;
+}
+.mb-lg-7{
+    margin-bottom: 64px;
+}
+/* end utilities */
+
+/* start nav */
+nav h1 a{
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/logo.png);
+    width: 80px;
+    height: 49px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    word-spacing: nowrap;
+}
+/* .logo{
+    width: 80px;
+    height: 49px;
+} */
+@media screen and (max-width: 575px) {
+    .header .h6{
+        font-size: 1.25rem;
+        /* font-size: 20px; */
+    }
+    .bd-white{
+        border: 1px solid #fff;
+    }
+    nav ul{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    nav ul li a{
+        display: block;
+    }
+    nav .nav-item{
+        width: 50%;
+    }
+}
+/* end nav */
+
+/* start header */
+.header{
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 991px) {
+    .header .h5{
+        font-size: 1.25rem;
+        /* font-size: 20px; */
+    }
+    .header .h3{
+        font-size: 3rem;
+        /* font-size: 48px; */
+    }
+}
+@media screen and (max-width: 575px) {
+    .header{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner-sm.png)
+    }
+    .header .h5{
+        font-size: 1rem;
+        /* font-size: 16px; */
+    }
+    .header .h3{
+        font-size: 2rem;
+        /* font-size: 32px; */
+    }
+    .pt-11{
+        padding-top: 160px;
+    }
+    .pb-11{
+        padding-bottom: 160px;
+    }
+}
+/* end header */
+
+/* start feature */
+.feature-icon{
+    width: 100px;
+    height: 100px;
+}
+@media screen and (max-width: 991px) {
+    .feature-icon{
+        width: 80px;
+        height: 80px;
+    }
+    .feature .h4{
+        font-size: 2rem;
+        /* font-size: 32px; */
+    }
+    .feature .h6{
+        font-size: 1.25rem;
+        /* font-size: 20px; */
+    }
+}
+@media screen and (max-width: 575px) {
+    .feature .h4{
+        font-size: 1.5rem;
+        /* font-size: 24px; */
+    }
+}
+/* end feature */
+
+/* start classic */
+.classic-icon{
+    width: 48px;
+    height: 48px;
+}
+@media screen and (max-width: 991px) {
+    .classic-icon{
+        width: 32px;
+        height: 32px;
+    }
+    .classic .h4-md{
+        font-size: 1.75rem;
+        /* font-size: 28px; */
+    }
+    .classic .h6{
+        font-size: 1.25rem;
+        /* font-size: 20px; */
+    }
+}
+@media screen and (max-width: 575px) {
+    .classic .h4{
+        font-size: 1.25rem;
+        /* font-size: 20px; */
+    }
+    .classic-item{
+        position: relative;
+    }
+    .classic-item-group{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+    }
+    .classic .text-color-primary{
+        color: #fff;
+    }
+}
+/* end classic */
+
+/* start designer */
+.designer{
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+/* 作法2-使用背景圖 */
+/* .designer-item-double{
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/product-8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;     
+} */
+.designer-item-double{
+    position: relative;
+}
+.designer-item-double::before{
+    content:" ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.designer-item-double h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.designer-item-youth{
+    position: relative;
+}
+.designer-item-youth h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.designer-item-youth::before{
+    content:" ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+/* 作法2-使用背景圖 */
+/* .designer-item-youth{
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/product-9.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;       
+} */
+@media screen and (max-width: 991px) {
+    .designer .h4,.designer .h2{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .designer .h4{
+        font-size: 1.25rem;
+        /* font-size: 20px; */
+    }
+}
+/* end designer */
+
+/* start recommend */
+@media screen and (max-width: 991px) {
+    .recommend .h4{
+        font-size: 2rem;
+        /* font-size: 32px; */
+    }
+}
+@media screen and (max-width: 575px) {
+    .recommend .h4{
+        font-size: 1.25rem;
+        /* font-size: 20px; */
+    }
+}
+/* end recommend */
+
+/* start contact */
+@media screen and (max-width: 991px) {
+    .inner-container{
+        max-width: 450px;
+    }  
+    .comtact .h4{
+        font-size: 2rem;
+        /* font-size: 32px; */
+    }
+    .comtact .h7{
+        font-size: 1rem;
+        /* font-size: 16px; */
+    }   
+    .comtact .p1{
+        font-size: 0.875rem;
+        /* font-size: 14px; */
+    }
+    .px-sm-7{
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .inner-container{
+        max-width: 345px;
+    }  
+    .px-6{
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+}
+/* end contact */
+
+/* start footer */
+.footer-mdeia-icon{
+    width: 48px;
+    height: 48px;
+}
+.footer-icon{
+    width: 44px;
+    height: 44px;
+}
+.footer-contact{
+    border-bottom: 1px solid #fff;
+}
+@media screen and (max-width: 991px) {
+    .footer-mdeia-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .footer-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .footer .h5{
+        font-size: 1.25rem;
+        /* font-size: 20px; */
+    } 
+}
+@media screen and (max-width: 575px) {
+    .footer-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .footer .h5{
+        font-size: 1rem;
+        /* font-size: 16px; */
+    }
+    .logo{
+        width: 46px;
+        height: 28px;
+    }
+}
+/* end footer */
